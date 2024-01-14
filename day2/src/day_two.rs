@@ -4,11 +4,6 @@ struct Blue(i32);
 struct Green(i32);
 struct Red(i32);
 
-struct Game<'a> {
-    num: i32,
-    rounds: Vec<&'a str>
-}
-
 pub fn run(input: &str) -> i64 {
     let red = Red(12);
     let green = Green(13);
